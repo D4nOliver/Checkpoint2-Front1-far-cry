@@ -1,0 +1,41 @@
+@media (min-width: 768px){
+
+header nav{
+    display: block;
+}
+
+#btn-toggle{
+    display: none;
+}
+
+.container-card{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.conteiner-integrants{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login form{
+    width: 60%;
+}
+
+#container {
+    margin: 32px 112px;
+  }
+
+#container__info{
+    flex-direction: row;
+}
+
+}
+
+@media (min-width: 1520px){
+    .container-card {
+        width: 80%;
+        gap: 40px;
+    }
+
+    
+}
